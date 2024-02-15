@@ -38,7 +38,7 @@ if(isset($_POST['proseslog'])){
     $pass = "1234";
 
 
-    if(($_POST['username'] == $user) || ($_POST['password'] == $pass) {
+    if(($_POST['username'] == $user) || ($_POST['password'] == $pass)) {
         $_SESSION['username'] = $_POST['username'];
 
         echo "<meta http-equiv=refresh content=0;URL='home.php'>";
